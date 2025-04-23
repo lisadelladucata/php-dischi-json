@@ -1,0 +1,72 @@
+[
+  {
+    "title": "The Dark Side of the Moon",
+    "artist": "Pink Floyd",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png",
+    "year": 1973,
+    "genre": "Rock Progressivo"
+  },
+  {
+    "title": "Thriller",
+    "artist": "Michael Jackson",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png",
+    "year": 1982,
+    "genre": "Pop"
+  },
+  {
+    "title": "Back in Black",
+    "artist": "AC/DC",
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/3/3e/ACDC_Back_in_Black.png",
+    "year": 1980,
+    "genre": "Hard Rock"
+  },
+  {
+    "title": "Nevermind",
+    "artist": "Nirvana",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg",
+    "year": 1991,
+    "genre": "Grunge"
+  },
+  {
+    "title": "Rumours",
+    "artist": "Fleetwood Mac",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/fb/FMacRumours.PNG",
+    "year": 1977,
+    "genre": "Rock"
+  },
+  {
+    "title": "Abbey Road",
+    "artist": "The Beatles",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "year": 1969,
+    "genre": "Rock"
+  },
+  {
+    "title": "21",
+    "artist": "Adele",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png",
+    "year": 2011,
+    "genre": "Soul/Pop"
+  },
+  {
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg",
+    "year": 1976,
+    "genre": "Rock"
+  },
+  {
+    "title": "Born to Die",
+    "artist": "Lana Del Rey",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/22/BornToDieAlbumCover.png",
+    "year": 2012,
+    "genre": "Indie Pop"
+  },
+  {
+    "title": "Random Access Memories",
+    "artist": "Daft Punk",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/a7/Random_Access_Memories.jpg",
+    "year": 2013,
+    "genre": "Electronic"
+  }
+]
