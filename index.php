@@ -1,7 +1,5 @@
 <?php
-$json_text = file_get_contents('./cds.json');
-
-$cds = json_decode($json_text, true);
+require_once "./functions.php"
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +11,7 @@ $cds = json_decode($json_text, true);
     <title>Document</title>
 </head>
 <body>
-<header class="bg-dark text-white text-center py-4 mb-4">
+    <header class="bg-dark text-white text-center py-4 mb-4">
         <h1> La Mia Collezione di Dischi</h1>
     </header>
 
@@ -36,6 +34,34 @@ $cds = json_decode($json_text, true);
             }
             ?>
         </div>
+        <hr>
+
+    <h2>Aggiungi un nuovo disco</h2>
+    <form action="server.php" method="POST" class="row g-3">
+      <div class="col-md-6">
+        <label for="title" class="form-label">Titolo</label>
+        <input type="text" class="form-control" name="title" required>
+      </div>
+      <div class="col-md-6">
+        <label for="artist" class="form-label">Artista</label>
+        <input type="text" class="form-control" name="artist" required>
+      </div>
+      <div class="col-md-6">
+        <label for="cover" class="form-label">URL Copertina</label>
+        <input type="url" class="form-control" name="cover" placeholder="https://..." required>
+      </div>
+      <div class="col-md-3">
+        <label for="year" class="form-label">Anno</label>
+        <input type="number" class="form-control" name="year" required>
+      </div>
+      <div class="col-md-3">
+        <label for="genre" class="form-label">Genere</label>
+        <input type="text" class="form-control" name="genre" required>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Aggiungi Disco</button>
+      </div>
+    </form>
     </main>
 
 </body>
